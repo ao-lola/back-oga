@@ -1,0 +1,32 @@
+{
+  "name": "ogalawyer",
+  "version": "1.0.0",
+  "description": "Admin Web Backend and Frontend",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "am"
+  },
+  "author": "Amidu ololade",
+  "license": "MIT",
+  "dependencies": {
+    "Router": "^2.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "schema": "^0.2.1",
+    "validator": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
